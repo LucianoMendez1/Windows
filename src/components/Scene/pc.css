@@ -154,7 +154,7 @@ button:hover {
   height: 100px;
   border-radius: 5px;
   cursor: pointer;
-  margin: 0 2rem 50rem; /* Espacio horizontal y vertical entre las carpetas, puedes ajustar esto */
+  margin: 0 1rem 20rem; /* Espacio horizontal y vertical entre las carpetas, puedes ajustar esto */
 }
 
 .folder:hover {
