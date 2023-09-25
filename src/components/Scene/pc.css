@@ -203,6 +203,7 @@ button:hover {
 .taskbar-icon2 img {
   width: 30; /* Tamaño deseado en píxeles */
   height: 30px; /* Tamaño deseado en píxeles */
+  left: 50;
   /* Ajusta el tamaño según tus preferencias */
 }
 
@@ -212,7 +213,7 @@ button:hover {
   position: fixed;
   bottom: 0;
   left: 60px;
-  right: 95.3rem;
+  
   display: flex;
   align-items: center;
   padding: 5px 10px;

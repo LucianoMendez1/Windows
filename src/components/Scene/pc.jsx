@@ -8,7 +8,7 @@ import psychelic from '../../assets/img/hongo1.png';
 import galaxy from '../../assets/img/galaxia.png';
 import backgroundGif from '../../assets/img/retro-city.gif'; // Ruta al archivo GIF
 import gsap from 'gsap';
-import appIcon1 from '../../assets/img/artpalm.png';
+/* import appIcon1 from '../../assets/img/artpalm.png'; */
 import appIcon2 from '../../assets/img/carpeta.png';
 import './pc.css';
 
@@ -229,9 +229,9 @@ class PC extends Component {
                 </div>
               )}
 
-              <div className="taskbar-icon1" onClick={() => this.openApp(appIcon1)}>
+              {/* <div className="taskbar-icon1" onClick={() => this.openApp(appIcon1)}>
                 <img src={appIcon1} alt="App 1" />
-              </div>
+              </div> */}
 
               <div className="taskbar-icon2" onClick={() => this.openApp(appIcon2)}>
                 <img src={appIcon2} alt="App 2" />
