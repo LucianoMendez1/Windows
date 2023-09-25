@@ -78,7 +78,7 @@ button {
   background: none; /* Elimina el fondo del botón */
   border: none; /* Elimina el borde del botón */
   cursor: pointer;
-  background-color: #cc0000;
+ 
   border-radius: 50%;
   padding: 0; /* Elimina el espaciado interno del botón */
   position: relative; /* Añade posición relativa para centrar el contenido */
@@ -118,7 +118,7 @@ button:hover {
 }
 
 .power-off-button {
-  background-color:#01601e;
+ 
   font-family: 'VT323', monospace;
   color: #fff; /* Color del texto del botón */
   border: none; /* Elimina el borde del botón */
@@ -181,6 +181,7 @@ button:hover {
 .taskbar-icon {
   width: 50px;
   height: 50px;
+ 
   cursor: pointer;
 }
 
@@ -196,7 +197,7 @@ button:hover {
 }
 .taskbar-icon1,
 .taskbar-icon2 {
-  margin-right: 50px; /* Espacio entre los íconos en píxeles */
+  margin-right: 20px; /* Espacio entre los íconos en píxeles */
   padding: 50px;
 }
 .taskbar-icon1 img,

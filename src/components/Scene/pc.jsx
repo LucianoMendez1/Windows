@@ -19,9 +19,9 @@ class PC extends Component {
       powerOn: false,
       loadingComplete: false,
       executables: [
-        { id: 1, name: 'Calisthenics.exe', url: 'https://lucianomendez1.github.io/Calisthenics./', isOpen: false, icon: icoCalistenics },
-        { id: 2, name: 'Psychedelic2.0.exe', url: 'https://psychedelic2-0.vercel.app/', isOpen: false, icon: browserIcon },
-        { id: 3, name: 'Art Palm.exe', url: 'https://ecommerce-art-git-master-lucianomendez1.vercel.app/', isOpen: false, icon: textEditorIcon },
+        { id: 1, name: 'Calisthenics', url: 'https://lucianomendez1.github.io/Calisthenics./', isOpen: false, icon: icoCalistenics },
+        { id: 2, name: 'Psychedelic2.0', url: 'https://psychedelic2-0.vercel.app/', isOpen: false, icon: browserIcon },
+        { id: 3, name: 'Art Palm', url: 'https://ecommerce-art-git-master-lucianomendez1.vercel.app/', isOpen: false, icon: textEditorIcon },
         { id: 4, name: 'Psychedelic1.0', url: 'https://lucianomendez1.github.io/Psychodelic/', isOpen: false, icon: psychelic },
         { id: 5, name: 'Galaxy', url: 'https://galaxy-wheat.vercel.app/', isOpen: false, icon: galaxy },
       ],
@@ -87,7 +87,7 @@ class PC extends Component {
     const executable = updatedExecutables.find((exe) => exe.id === id);
 
     if (executable && !executable.isOpen) {
-      // Si se abre el ejecutable, agregamos una nueva ventana emergente
+   
       const newWindow = (
         <div className="popup-window" key={id}>
           {/* Contenido de la ventana emergente */}
