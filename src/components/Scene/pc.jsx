@@ -6,7 +6,7 @@ import textEditorIcon from '../../assets/img/artpalm.png';
 import icoCalistenics from '../../assets/img/silueta.jpg';
 import psychelic from '../../assets/img/hongo1.png';
 import galaxy from '../../assets/img/galaxia.png';
-import backgroundGif from '../../assets/img/retro-city.gif'; // Ruta al archivo GIF
+import backgroundGif from '../../assets/img/retro.gif'; // Ruta al archivo GIF
 import gsap from 'gsap';
 /* import appIcon1 from '../../assets/img/artpalm.png'; */
 import appIcon2 from '../../assets/img/carpeta.png';

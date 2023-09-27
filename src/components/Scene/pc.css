@@ -284,8 +284,8 @@ button:hover {
 
 /* Estilos para los iconos de los ejecutables */
 .executable-icon {
-  width: 40px; /* Ancho deseado */
-  height: 40px; /* Altura deseada */
+  width: 60px; /* Ancho deseado */
+  height: 90px; /* Altura deseada */
   margin-right: 10px; /* Espacio entre los iconos */
   border-radius: 50%; /* Hace que los iconos sean redondos */
   object-fit: cover; /* Escala la imagen para llenar el espacio sin deformarla */
@@ -293,8 +293,8 @@ button:hover {
 
 .executable-name {
   font-family: 'VT323', monospace; /* Fuente de texto */
-  font-size: 1.2rem; /* Tamaño de fuente */
-  font-weight: 700;
+  font-size: 1.9rem; /* Tamaño de fuente */
+
   color: #fff; /* Color del texto */
   text-align: center; /* Alinear el texto al centro */
   margin-top: 5px; /* Espacio superior entre el icono y el nombre */
