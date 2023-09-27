@@ -9,7 +9,7 @@ import galaxy from '../../assets/img/galaxia.png';
 import backgroundGif from '../../assets/img/retro.gif'; // Ruta al archivo GIF
 import gsap from 'gsap';
 /* import appIcon1 from '../../assets/img/artpalm.png'; */
-import appIcon2 from '../../assets/img/carpeta.png';
+/* import appIcon2 from '../../assets/img/carpeta.png'; */
 import './pc.css';
 
 class PC extends Component {
@@ -20,7 +20,7 @@ class PC extends Component {
       loadingComplete: false,
       executables: [
         { id: 1, name: 'Calisthenics', url: 'https://lucianomendez1.github.io/Calisthenics./', isOpen: false, icon: icoCalistenics },
-        { id: 2, name: 'Psychedelic 2.0', url: 'https://psychedelic2-0.vercel.app/', isOpen: false, icon: browserIcon },
+        { id: 2, name: 'Psychedelic2.0', url: 'https://psychedelic2-0.vercel.app/', isOpen: false, icon: browserIcon },
         { id: 3, name: 'Art Palm', url: 'https://ecommerce-art-git-master-lucianomendez1.vercel.app/', isOpen: false, icon: textEditorIcon },
         { id: 4, name: 'Psychedelic1.0', url: 'https://lucianomendez1.github.io/Psychodelic/', isOpen: false, icon: psychelic },
         { id: 5, name: 'Galaxy', url: 'https://galaxy-wheat.vercel.app/', isOpen: false, icon: galaxy },
@@ -233,8 +233,8 @@ class PC extends Component {
                 <img src={appIcon1} alt="App 1" />
               </div> */}
 
-              <div className="taskbar-icon2" onClick={() => this.openApp(appIcon2)}>
-                <img src={appIcon2} alt="App 2" />
+              <div className="taskbar-icon22" onClick={() => this.openApp()}>
+                {/* <img src={appIcon2} alt="App 2" /> */}
               </div>
             </div>
           </div>
