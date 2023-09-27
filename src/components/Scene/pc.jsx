@@ -22,7 +22,7 @@ class PC extends Component {
         { id: 1, name: 'Calisthenics', url: 'https://lucianomendez1.github.io/Calisthenics./', isOpen: false, icon: icoCalistenics },
         { id: 2, name: 'Psychedelic2.0', url: 'https://psychedelic2-0.vercel.app/', isOpen: false, icon: browserIcon },
         { id: 3, name: 'Art Palm', url: 'https://ecommerce-art-git-master-lucianomendez1.vercel.app/', isOpen: false, icon: textEditorIcon },
-        { id: 4, name: 'Psychedelic1.0', url: 'https://lucianomendez1.github.io/Psychodelic/', isOpen: false, icon: psychelic },
+        { id: 4, name: 'Psychedelic1.0', url: 'https://psychodelic-git-master-lucianomendez1.vercel.app/', isOpen: false, icon: psychelic },
         { id: 5, name: 'Galaxy', url: 'https://galaxy-wheat.vercel.app/', isOpen: false, icon: galaxy },
       ],
       openWindows: {}, // Usar un objeto para las ventanas emergentes
