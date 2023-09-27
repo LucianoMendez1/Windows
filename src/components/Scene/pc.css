@@ -285,7 +285,7 @@ button:hover {
 /* Estilos para los iconos de los ejecutables */
 .executable-icon {
   width: 60px; /* Ancho deseado */
-  height: 90px; /* Altura deseada */
+  height: 60px; /* Altura deseada */
   margin-right: 10px; /* Espacio entre los iconos */
   border-radius: 50%; /* Hace que los iconos sean redondos */
   object-fit: cover; /* Escala la imagen para llenar el espacio sin deformarla */
